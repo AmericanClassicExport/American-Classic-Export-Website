@@ -1,0 +1,13 @@
+[x] In "How it works" page, "Submit your vehicle request" should link to "Find my Classic" and have proper link styling.
+[x] Make "How it Works" page more lively and less white/boring.
+[x] In "recently sourced" page, add the picture sent to you in the missing slot.
+[x] Update pictures with new file names and put the best pictures in the best places.
+[x] Mustang picture as top cover for "How it Works" page.
+[x] Reduce whiteness on "Services" page.
+[x] Make FAQ text bigger, make each question look clickable, and add smooth animations.
+[x] Link "For Dealers page" to dealers page in the last FAQ on FAQ page.
+[x] Remove one of the two lines at the bottom of each page in the footer.
+[x] Fix "Find my Classic" button being inside of the homepage location text on wider devices.
+[ ] Add a simple ACE heart / 58 logo.
+[x] Link EmailJS to Dennis' professional email and configure the Service ID, Public Key, and Template ID.
+[ ] Prototype deployment on GitHub Pages complete with each link (for example, domain.com/car-finder).

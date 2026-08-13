@@ -1,0 +1,115 @@
+﻿<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Car Finder | American Classic Export Services</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=DM+Sans:opsz,wght@9..40,400;9..40,500;9..40,600;9..40,700&family=Playfair+Display:ital,wght@0,600;0,700;0,800;1,600&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="page-loader" aria-hidden="true"><span>ACE</span></div>
+    <header class="site-header" data-site-header></header>
+    <main>
+      <section class="page-hero finder-hero">
+        <div class="wrapper">
+          <p class="eyebrow light reveal">Car Finder</p>
+          <h1 class="reveal">FIND MY<br /><i>CLASSIC</i></h1>
+        </div>
+      </section>
+      <section class="finder section-dark">
+        <div class="wrapper finder-layout">
+          <div class="finder-intro reveal">
+            <p class="eyebrow light">Car Finder</p>
+            <h2>Tell us more about your <i>dream car</i></h2>
+          </div>
+          <form class="inquiry-form reveal" id="vehicle-form">
+            <input type="hidden" name="form_type" value="Car Finder" />
+            <div class="form-grid">
+              <label>Year or year range<input name="year" type="text" /></label
+              ><label>Make<input name="make" type="text" /></label
+              ><label>Model<input name="model" type="text" /></label
+              ><label
+                >Body style<select name="body_style">
+                  <option value="">Select one</option>
+                  <option>Coupe</option>
+                  <option>Convertible</option>
+                  <option>Sedan</option>
+                  <option>Wagon</option>
+                  <option>Pickup truck</option>
+                  <option>Van</option>
+                  <option>Other</option>
+                </select></label
+              ><label
+                >Engine preference<input
+                  name="engine_preference"
+                  type="text" /></label
+              ><label
+                >Transmission preference<select name="transmission_preference">
+                  <option value="">Select one</option>
+                  <option>Automatic</option>
+                  <option>Manual</option>
+                  <option>No preference</option>
+                </select></label
+              ><label
+                >Maximum budget (USD)<input
+                  name="maximum_budget"
+                  type="text"
+                  placeholder="e.g. USD 25,000" /></label
+              ><label>Condition<input name="condition" type="text" /></label
+              ><label class="full"
+                >Tell us more about your dream car<textarea
+                  name="dream_car"
+                  rows="4"
+                ></textarea></label
+              ><label class="full" id="parts"
+                >Parts needed (if applicable)<textarea
+                  name="parts_needed"
+                  rows="3"
+                ></textarea></label
+              ><label class="full"
+                >Additional parts information<textarea
+                  name="parts_information"
+                  rows="3"
+                ></textarea></label
+              ><label>Name<input name="from_name" type="text" required /></label
+              ><label
+                >Country<input name="country" type="text" required /></label
+              ><label
+                >Email<input name="reply_to" type="email" required /></label
+              ><label
+                >Preferred contact method:<select
+                  name="contact_method"
+                  required
+                >
+                  <option value="" selected disabled>Select one</option>
+                  <option>Email</option>
+                  <option>WhatsApp</option>
+                  <option>Facebook Messenger</option>
+                  <option>Text/SMS</option>
+                </select></label
+              ><label class="full"
+                >WhatsApp, Facebook Messenger or Text/SMS details<input
+                  name="contact_detail"
+                  type="text"
+              /></label>
+            </div>
+            <button class="button button-primary submit-button" type="submit">
+              Send <span>→</span>
+            </button>
+            <p class="form-status" role="status" aria-live="polite"></p>
+          </form>
+        </div>
+      </section>
+    </main>
+    <footer class="site-footer" data-site-footer></footer>
+    <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+    <script src="app.js"></script>
+  </body>
+</html>
+
