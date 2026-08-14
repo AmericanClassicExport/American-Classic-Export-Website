@@ -56,7 +56,7 @@ h2 { font-size: clamp(3rem, 5.35vw, 5.4rem); margin-bottom: 0; }
 .nav-toggle span { background: currentColor; display: block; height: 1px; margin: 5px 0; transition: transform .3s var(--ease); width: 25px; }
 
 .hero { background: var(--pine); color: var(--cream); display: flex; flex-direction: column; height: min(900px, 100svh); min-height: 760px; overflow: hidden; position: relative; }
-.hero-backdrop { animation: heroIn 1.3s var(--ease) both; background: linear-gradient(90deg, rgba(19,30,27,.88) 0%, rgba(19,30,27,.58) 39%, rgba(19,30,27,.16) 72%, rgba(19,30,27,.30) 100%), url("assets/_58%20Dodge%2022.jpeg") center 48% / cover no-repeat; inset: 0; position: absolute; transform: scale(1.06); }
+.hero-backdrop { animation: heroIn 1.3s var(--ease) both; background: linear-gradient(90deg, rgba(19,30,27,.88) 0%, rgba(19,30,27,.58) 39%, rgba(19,30,27,.16) 72%, rgba(19,30,27,.30) 100%), url("assets/58-Dodge.jpeg") center 48% / cover no-repeat; inset: 0; position: absolute; transform: scale(1.06); }
 @keyframes heroIn { to { transform: scale(1); } }
 .hero-grid { background-image: linear-gradient(rgba(255,255,255,.06) 1px, transparent 1px), linear-gradient(90deg, rgba(255,255,255,.06) 1px, transparent 1px); background-size: 72px 72px; inset: 0; mask-image: linear-gradient(to bottom, rgba(0,0,0,.7), transparent 65%); opacity: .28; position: absolute; }
 .hero-content { flex: 1; padding-bottom: 180px; padding-top: clamp(180px, 24vh, 238px); position: relative; }
@@ -328,7 +328,7 @@ body.page-leaving { animation: page-leave .28s ease both; pointer-events: none; 
 .main-nav > a.active:not(.nav-cta) { color: var(--rust); }
 .page-hero { align-items: end; background: linear-gradient(115deg, rgba(18,34,30,.98), rgba(22,45,40,.82)), url("assets/home-page-background.jpeg") center / cover; color: var(--cream); display: flex; min-height: 390px; padding: 130px 0 63px; }
 .page-hero h1 { font-size: clamp(4rem, 8vw, 7.5rem); margin: 0; max-width: 1020px; }
-.finder-hero { background-image: linear-gradient(115deg, rgba(18,34,30,.98), rgba(22,45,40,.58)), url("assets/_58%20Dodge%2022.jpeg"); }
+.finder-hero { background-image: linear-gradient(115deg, rgba(18,34,30,.98), rgba(22,45,40,.58)), url("assets/58-Dodge.jpeg"); }
 .dealer-hero { background-image: linear-gradient(115deg, rgba(18,34,30,.98), rgba(22,45,40,.58)), url("assets/yet-another-background-car.jpeg"); }
 .home-hero h1 { max-width: 980px; }
 .home-hero { height: 1000px; min-height: 1000px; }
