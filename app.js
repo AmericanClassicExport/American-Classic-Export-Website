@@ -32,7 +32,7 @@ function renderShell() {
 
   if (header) {
     header.innerHTML = `
-      <a class="brand" href="index.html" aria-label="American Classic Export home"><span class="brand-mark" aria-hidden="true"><svg viewBox="0 0 44 44"><path d="M22 38 5 21a10 10 0 0 1 14-14l3 3 3-3a10 10 0 0 1 14 14L22 38Z"/><text x="22" y="25" text-anchor="middle">58</text></svg></span><span class="brand-name">American Classic <em>Export</em></span></a>
+      <a class="brand" href="index.html" aria-label="American Classic Export home"><img class="brand-mark" src="assets/Vectorized.svg" alt="American Classic Export logo" /><span class="brand-name">American Classic <em>Export</em></span></a>
       <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="main-nav"><span></span><span></span></button>
       <nav id="main-nav" class="main-nav" aria-label="Primary navigation">${links}<a class="nav-cta" href="car-finder.html">Find My Classic <span>↗</span></a></nav>`;
   }

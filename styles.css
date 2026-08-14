@@ -42,9 +42,7 @@ h2 { font-size: clamp(3rem, 5.35vw, 5.4rem); margin-bottom: 0; }
 
 .site-header { align-items: center; color: var(--cream); display: flex; height: 84px; justify-content: space-between; left: 0; padding: 0 48px; position: absolute; right: 0; top: 0; z-index: 10; }
 .brand { align-items: center; display: inline-flex; gap: 11px; }
-.brand-mark { align-items: center; display: inline-flex; height: 41px; justify-content: center; width: 41px; }
-.brand-mark svg { fill: none; height: 100%; stroke: currentColor; stroke-width: 1.2; width: 100%; }
-.brand-mark text { fill: currentColor; font-family: var(--mono); font-size: 8px; letter-spacing: 0; stroke: none; }
+.brand-mark { display: block; height: 43px; object-fit: contain; width: 43px; }
 .brand-name { font-size: .7rem; font-weight: 700; letter-spacing: .065em; line-height: 1.15; text-transform: uppercase; }
 .brand-name em { display: block; font-family: var(--serif); font-size: 1rem; font-weight: 600; letter-spacing: -.03em; text-transform: none; }
 .main-nav { align-items: center; display: flex; gap: 31px; }
